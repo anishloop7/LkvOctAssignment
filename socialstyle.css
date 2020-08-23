@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  background-image:url(connection.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: " ";
+  font-size: 20px;
+  text-align: center;
+  border-top: 0px;
+  margin: 0px;
+}
+.intro{
+  position: absolute;
+  top:10%;
+}
+.social{
+  position: absolute;
+  
+  top:70%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.social a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #2c3e50;
+  color: white;
+  margin: 0 6px;
+  border-radius: 20%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 24px;
+
+}
+.social a:hover{
+  background: #ff0019;
+}
+.social a i{
+  transition: 0.4s all;
+}
+.social a:hover > i{
+  transform: scale(1.6) rotate(22deg);
+}
+/*.button{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn2{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.9s ease;
+}
+.btn2:hover{
+  background-color: #fff;
+  color: #000;
+}*/
+p{
+  font-family: "Comic Sans MS";
+  padding: 5% 20% 0px 20% ;
+}
